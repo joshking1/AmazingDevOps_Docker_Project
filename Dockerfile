@@ -14,8 +14,6 @@ WORKDIR /
 COPY src/html /etc/sysconfig/jenkins
 # Now the structure looks like this '/usr/app/src/test.py'
 
-RUN yum install update 
-
 
 #CMD instruction should be used to run the software
 #contained by your image, along with any arguments.
