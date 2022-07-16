@@ -14,7 +14,7 @@ WORKDIR /
 COPY src/html /etc/sysconfig/jenkins
 # Now the structure looks like this '/usr/app/src/test.py'
 
-RUN chmod +x jenkins_server.sh
+RUN chmod +x src/html/jenkins_server.sh
 
 
 #CMD instruction should be used to run the software
